@@ -5,14 +5,14 @@ import time
 import discord
 
 # Set the IP address and port number to listen on
-HOST = '0.0.0.0'
+HOST = '47.128.230.12'
 PORT = 8080
 
 # Set the threshold for detecting a DDoS attack
 THRESHOLD = 1000
 
 # Set the Discord webhook URL for sending notifications
-DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/your-webhook-url-here'
+DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1333414331307524096/oL16M0sDaIwXlJuHuQq3K_u7ZOwIv_ZMTkmGzFawCopz3kxBwNdVjV2sWzmUXcmGnouo'
 
 # Create a UDP socket and bind it to the specified address and port
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
